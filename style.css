@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Lexend Deca ;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    font-weight: 400;
+}
+@font-face {
+    font-family:Big Shoulders Display ;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+    font-weight: 700;
+}
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    margin: auto;
+    align-content: center;
+    
+
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h1{
+    color:hsl(0, 0%, 95%) ;
+}
+.container{
+    /* padding:50px; */
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+    background-color: red;
+   margin: 50px;
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+   
+    
+   
+    
+}
+.sedans{
+    background-color:hsl(31, 77%, 52%) ;
+    padding: 20px;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+}
+.suv{
+    
+    background-color:hsl(184, 100%, 22%) ;
+}
+.luxury{
+
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    flex-grow: 4;
+}
+.car{
+    padding: 20px;
+    height: 100%;
+}
+button{
+    background-color:  hsl(0, 0%, 95%);
+    margin-top: 100px;
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+    width: 120px;
+}
+a{
+    text-decoration: none;
+}
